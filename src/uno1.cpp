@@ -1,5 +1,7 @@
 #include <Arduino.h>
-
+void setup (){
+  Serial.begin(9600);
+}
 float i = 0;
 void loop()
 {
